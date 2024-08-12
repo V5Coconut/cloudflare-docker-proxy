@@ -6,13 +6,13 @@ addEventListener("fetch", (event) => {
 const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
-  "docker.v5coconut.xyz.com": "https://registry-1.docker.io",
-  "quay.v5coconut.xyz.com": "https://quay.io",
-  "gcr.v5coconut.xyz.com": "https://gcr.io",
-  "k8s-gcr.v5coconut.xyz.com": "https://k8s.gcr.io",
-  "k8s.v5coconut.xyz.com": "https://registry.k8s.io",
-  "ghcr.v5coconut.xyz.com": "https://ghcr.io",
-  "cloudsmith.v5coconut.xyz.com": "https://docker.cloudsmith.io",
+  "docker.v5coconut.asia": "https://registry-1.docker.io",
+  "quay.v5coconut.asia": "https://quay.io",
+  "gcr.v5coconut.asia": "https://gcr.io",
+  "k8s-gcr.v5coconut.asia": "https://k8s.gcr.io",
+  "k8s.v5coconut.asia": "https://registry.k8s.io",
+  "ghcr.v5coconut.asia": "https://ghcr.io",
+  "cloudsmith.v5coconut.asia": "https://docker.cloudsmith.io",
 };
 
 function routeByHosts(host) {
